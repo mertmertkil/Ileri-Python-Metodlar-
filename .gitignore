@@ -1,0 +1,13 @@
+# Python sistem dosyaları
+__pycache__/
+*.py[cod]
+
+# İşletim sistemi kalıntıları (macOS için)
+.DS_Store
+
+# Veri dosyaları (Eğer çok büyüklerse ve GitHub'a yüklemek istemiyorsan)
+*.csv
+
+# Sanal ortam klasörü
+venv/
+env/
