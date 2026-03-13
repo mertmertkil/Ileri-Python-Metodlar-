@@ -1,0 +1,14 @@
+web scraping, bir web sayfasındaki bilgileri otomatik bir yazılım aracılığıyla çekip, anlamlı ve yapılandırılmış bir veriye (Excel, JSON, Veritabanı vb.) dönüştürme işlemidir.
+
+Basitçe ifade etmek gerekirse:  tarayıcıyı açıp, bir sitedeki fiyatları veya haberleri tek tek kopyalayıp bir dosyaya yapıştırmanı, bir botun saniyeler içinde binlerce sayfa için yapmasıdır.
+
+Nasıl Çalışır? (3 Temel Adım)
+Web scraping süreci genellikle şu teknik sırayı takip eder:
+
+İstek (Request): Bot, hedef web sitesinin sunucusuna bir "HTTP İsteği" gönderir 
+
+Yanıt (HTML): Sunucu, sitenin tüm kodlarını (HTML) bota gönderir.
+
+Ayrıştırma (Parsing): Bot, bu karmaşık HTML kod yığını içinden sadece senin istediğin verileri (fiyat, başlık, tarih) ayıklar ve kaydeder.
+
+Python ' da bu işi beautifulSoup adlı araç kullanılır.
